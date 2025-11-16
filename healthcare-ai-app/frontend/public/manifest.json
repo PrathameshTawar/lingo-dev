@@ -1,0 +1,43 @@
+{
+  "name": "Lango Healthcare AI Assistant",
+  "short_name": "Lango Health",
+  "description": "Multilingual AI-powered healthcare assistant for symptom analysis and local doctor recommendations",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#3b82f6",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "en",
+  "categories": ["health", "medical", "productivity"],
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Analyze Symptoms",
+      "short_name": "Symptoms",
+      "description": "Quick symptom analysis",
+      "url": "/?action=analyze",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Find Doctors",
+      "short_name": "Doctors",
+      "description": "Find local healthcare providers",
+      "url": "/?action=doctors",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}
